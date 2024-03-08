@@ -3,6 +3,7 @@ console.log("hihi")
 let sinInput = 0;
 let scaleFactor = 100;
 let mouseXPos, mouseYPos;
+//hi
 
 let x = [];
 let y = [];
