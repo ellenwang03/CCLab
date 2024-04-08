@@ -43,7 +43,7 @@ class EllenDancer {
     this.bounceSpeed = 0.05; 
     this.bounceRange = 30; 
     this.mouthY = 5; 
-    this.mouthDirection = .3; //speed of mouth movement
+    this.mouthDirection = .3; //direction 
   
   }
   update() {
