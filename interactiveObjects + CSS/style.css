@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.textbox p{
+  background-color: purple;
+  margin: 0;
+}
+
+.textbox .miniHeadline{
+  color: red;
+  background-color: cornflowerblue;
+}
+
+.specialHighlight{
+  color: white;
+  background-color: black;
+}
+
+.textbox{
+  background-color: aquamarine;
+  width: 200px;
+  outline-color: black;
+  outline-width:  1px;
+  outline-style: dashed;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.box1{
+  position: absolute;
+  left: 350px;
+  top: 20px;
+}
+
+.box2{
+  position: fixed;
+  left: 100px;
+  top: 20px;
+}
+
+.box3{
+  position: relative;
+  left: 120px;
+  top: 20px;
+  
+}
+
+.relative{
+  position: relative;
+  left: 10px;
+  top: -5px;
+
+}
+
+#mainWrapper{
+  background-color: brown;
+  width: 500px;
+  border: 2px solid green;
+  margin: auto;
+  padding: 30px;
+}
+
+h1{
+  background-color: green;
+  text-align: center;
+}

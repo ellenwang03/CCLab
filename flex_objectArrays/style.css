@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#mainFlexContainer{
+  display:flex;
+  outline: 1px dashed black;
+  flex-direction: row;
+
+  width: 100%; 
+  max-width: 1000px;
+
+  margin: auto;
+}
+
+#mainFlexContainer p{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media(max-width: 800px){
+  #mainFlexContainer{
+    flex-direction: column;
+    max-width: 500px;
+  }
+  #canvasContainer{
+    order: 1;
+  }
+  .intro{
+    order:2;
+  }
+  .credits{
+    order:3;
+  }
+}
+
