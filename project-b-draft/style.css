@@ -16,7 +16,7 @@ body {
   width: 80%;
   max-width: 1200px;
   padding: 20px;
-  background-image: url('img/scroll-background.jpeg'); 
+  background-image: url('img/background.jpg'); 
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 20px black;
@@ -29,19 +29,23 @@ body {
 
 h1 {
   font-size: 60px;
-  color: black;
+  color: white;
+  text-shadow: #202020 3px 3px;
   text-align: center;
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: 40px;
-  color: black;
+  color: white;
+  text-shadow: #202020 3px 3px;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .intro-text {
+  color: white;
+  text-shadow: #202020 1px 2px;
   font-size: 20px;
   margin: 25px;
   margin-left: 150px;
@@ -59,15 +63,15 @@ h2 {
 .continue-button {
   padding: 10px 20px;
   font-size: 18px;
-  color: #333;
+  color: white;
   text-decoration: none;
-  border: 2px solid black; 
+  border: 2px solid white; 
   border-radius: 5px;
   transition: background-color 0.3s ease; 
 }
 
 .back-button:hover,
 .continue-button:hover {
-  background-color: black; 
-  color: white; 
+  background-color: white; 
+  color: black; 
 }
