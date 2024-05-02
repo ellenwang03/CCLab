@@ -10,11 +10,11 @@ let moon_img, aurora_img, finger_img;
 let gameOverState = false;
 
 function preload(){
-  // Images
+  // images
   moon_img = loadImage('moon.png');
   aurora_img = loadImage('aurora.png');
   finger_img = loadImage('finger.png');
-  // Sounds
+  // sounds
   sound_aurora = loadSound("aurora.mp3");
   sound_stars = loadSound("stars.mp3"); 
   sound_moonCut = loadSound("moon-cut.mp3"); 
@@ -44,7 +44,7 @@ function draw() {
     stars[i].display();
   }
 
-  // Check if the mouse is over the moon
+  // if the mouse is over the moon
   if(mouseX > 20 && mouseX < 20 + moon_img.width &&
      mouseY > 20 && mouseY < 20 + moon_img.height){
     if(mouseIsPressed){
@@ -53,7 +53,7 @@ function draw() {
     }
   }
 
-  // Check if the mouse is over the aurora
+  // if the mouse is over the aurora
   if(mouseX > 200 && mouseX < 200 + aurora_img.width &&
      mouseY > 0 && mouseY < aurora_img.height){
     if(mouseIsPressed){
@@ -61,7 +61,7 @@ function draw() {
     }
   }
 
-  // Check if the mouse is over any star
+  // if the mouse is over any star
   for(let i = 0; i < stars.length; i++){
     if(dist(mouseX, mouseY, stars[i].x, stars[i].y) < 50){
       if(mouseIsPressed){
