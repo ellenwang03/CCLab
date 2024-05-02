@@ -1,33 +1,18 @@
+let moonButton;
+
 function setup() {
-  let canvas = createCanvas(800, 500);
-  canvas.parent("canvasContainer");
-  background(220);
+  createCanvas(800, 500);
+  
+  moonButton = createButton('Moon');
+  moonButton.position(20, 20);
+  moonButton.mousePressed(goToMoonCanvas);
 }
 
 function draw() {
-  //
-  background(0,0,205)
-  fill(255);
-  text("canvas",400,250);
+  background(220);
+  // Other drawing code here
 }
 
-// class Moon{
-//   // moon cutting ear
-// }
-
-// class BreakingMirror{
-//   //breaking mirror
-// }
-
-// class Chopsticks{
-//   //chopsticks
-// }
-
-// class ScavengerHunt{
-//   //scanvenger hunt
-// }
-
-// class Whistling{
-//   //whistling
-// }
-
+function goToMoonCanvas() {
+  window.location.href = 'moon_canvas.html'; // Replace 'moon_canvas.html' with the URL of your moon canvas page
+}
