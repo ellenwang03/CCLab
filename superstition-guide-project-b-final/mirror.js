@@ -27,7 +27,7 @@ function setup() {
   buryButton = createButton("Dispose Mirror");
   buryButton.position(
     width / 2 - buryButton.width / 2,
-    height / 2 - buryButton.height / 2 + 970
+    height / 2 - buryButton.height / 2 + 1110
   );
   buryButton.mousePressed(buryMirror);
   buryButton.hide();
