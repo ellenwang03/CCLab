@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 50px;
+  /* background-color: rgb(174,228,237); */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  font-size: 140px;
+  text-align: center;
+  margin-top: 200px; 
+  margin-bottom: 300px; 
+}
+
+h2{
+  font-size: 80px;
+  text-align: center;
+  margin-top: 500px; 
+  margin-bottom: 80px; 
+}
+
+h4 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+}
+
+.title{
+  width: 100%;
+	height: 300px;
+	margin: 100px;
+}
+
+.bigContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro{
+  margin-top: 50px; 
+  margin-left: 100px;
+  margin-bottom: 10px; 
+
+}
+.introText{
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px; 
+}
+
+.buttonContainer {
+  position: fixed;
+  top: 50%;
+  right: 50px; /* Adjust the distance from the right edge */
+  transform: translateY(-50%);
+}
+
+
+/* Style for the button */
+.button {
+  display: inline-block;
+  padding: 0;
+  font-size: 48px; /* Adjust the size as needed */
+  text-decoration: none;
+  color: #007bff; /* Blue color, you can change this */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.button:hover {
+  color: #0056b3; /* Darker blue color on hover */
+}
