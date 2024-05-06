@@ -26,7 +26,7 @@ function setup() {
 
   buryButton = createButton("Dispose Mirror");
   buryButton.position(
-    width / 2 - buryButton.width / 2+600,
+    width / 2 - buryButton.width / 2+300,
     height / 2 - buryButton.height / 2 + 970
   );
   buryButton.mousePressed(buryMirror);
@@ -37,7 +37,12 @@ function setup() {
     let x = random(width);
     let y = random(-500, -50);
     let fallSpeed = random(0.5, 2);
-    fireEmojis.push({ x: x, y: y, fallSpeed: fallSpeed });
+    fireEmojis.push({
+      x,
+      y,
+      fallSpeed
+  });
+  
   }
 }
 
