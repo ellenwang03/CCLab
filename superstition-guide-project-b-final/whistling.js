@@ -58,7 +58,8 @@ function draw() {
   if (ghosts.length > 10) {
     candle = new Candle(mouseX, mouseY);
     // repel ghosts from the candle
-    for (let ghost of ghosts) {
+    for (let i = 0; i < ghosts.length; i++) {
+      let ghost = ghosts[i];
       if (dist(ghost.x, ghost.y, candle.x, candle.y) < candle.radius) {
         ghost.repel(candle.x, candle.y); 
       }
@@ -67,7 +68,10 @@ function draw() {
   } else {
     candle = null; 
   }
+  
 }
+
+
 
 function mousePressed() {
   //if mouse over a ghost
