@@ -58,21 +58,20 @@ h4 {
 .buttonContainer {
   position: fixed;
   top: 50%;
-  right: 50px; /* Adjust the distance from the right edge */
+  right: 50px; 
   transform: translateY(-50%);
 }
 
-
-/* Style for the button */
+/* Style for button */
 .button {
   display: inline-block;
   padding: 0;
-  font-size: 48px; /* Adjust the size as needed */
+  font-size: 48px; 
   text-decoration: none;
-  color: #007bff; /* Blue color, you can change this */
-  transition: color 0.3s ease; /* Smooth color transition */
+  color: #007bff; 
+  transition: color 0.3s ease; 
 }
 
 .button:hover {
-  color: #0056b3; /* Darker blue color on hover */
+  color: #0056b3; 
 }
